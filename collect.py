@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """성남시의료원 소식 수집기 -> data.json
 
-소스: 구글 뉴스 RSS / 공지게시판(robots.txt 허용 시) / 인스타·페북(Meta 공식 API, 토큰 있을 때만)
+소스: 구글 뉴스 RSS / 병원 홈페이지 공지 2곳(robots.txt 허용 시) / 인스타·페북(Meta 공식 API, 토큰 있을 때만)
 실행: python collect.py   (필요 패키지: requests, beautifulsoup4)
 """
 import datetime as dt
 import json
 import os
 import re
+import ssl
 import urllib.parse
 import urllib.robotparser
 import xml.etree.ElementTree as ET
@@ -16,6 +17,7 @@ from pathlib import Path
 
 import requests
 from bs4 import BeautifulSoup
+from requests.adapters import HTTPAdapter
 
 OUT = Path(__file__).with_name("data.json")
 UA = "scmc-feed-bot/1.0 (internal dashboard; contact: see repo)"
@@ -24,7 +26,12 @@ KEEP = 300  # 저장할 최대 항목 수
 HEAD = {"User-Agent": UA}
 
 NEWS_QUERY = "성남시의료원"
-NOTICE_URL = "https://www.scmc.kr/information/VariousList/"
+BASE = "https://www.scmc.kr"
+# (주소, 표시 이름, 목록 형태)  table = 번호/제목/게시일자 표, cards = 사진+제목+요약 카드
+NOTICE_PAGES = [
+    (BASE + "/information/scmcInfoList/", "의료원 공지", "table"),
+    (BASE + "/information/VariousList/", "Now,성남시의료원", "cards"),
+]
 
 
 def trim(s, n=90):
@@ -32,6 +39,70 @@ def trim(s, n=90):
     return s if len(s) <= n else s[: n - 1] + "…"
 
 
+# ---------- 접속 (병원 서버의 오래된 TLS 설정 대응) ----------
+class RelaxedTLS(HTTPAdapter):
+    """OpenSSL 3 기본 보안 수준이 거부하는 구형 서버 서명 방식을 허용. 인증서 검증은 그대로 유지."""
+
+    def init_poolmanager(self, *args, **kwargs):
+        ctx = ssl.create_default_context()
+        ctx.set_ciphers("DEFAULT:@SECLEVEL=0")
+        try:
+            ctx.minimum_version = ssl.TLSVersion.TLSv1
+        except Exception:
+            pass
+        kwargs["ssl_context"] = ctx
+        super().init_poolmanager(*args, **kwargs)
+
+
+def get(url, **kw):
+    """기본 설정으로 먼저 접속하고, scmc.kr 에서 TLS 오류가 날 때만 완화 설정으로 한 번 더 시도."""
+    kw.setdefault("headers", HEAD)
+    kw.setdefault("timeout", 20)
+    try:
+        return requests.get(url, **kw)
+    except requests.exceptions.SSLError as e:
+        host = urllib.parse.urlparse(url).hostname or ""
+        if not host.endswith("scmc.kr"):
+            raise
+        print(f"[tls] 기본 보안 설정으로 연결 실패 -> {host} 에만 완화 설정으로 재시도: {str(e)[:120]}")
+        s = requests.Session()
+        s.mount("https://", RelaxedTLS())
+        return s.get(url, **kw)
+
+
+_robots = {}
+
+
+def robots_allows(url):
+    """robots.txt 를 읽어 수집 허용 여부 판단. 못 읽거나 서버 오류면 보수적으로 건너뜀."""
+    p = urllib.parse.urlparse(url)
+    root = f"{p.scheme}://{p.netloc}"
+    if root not in _robots:
+        rp = urllib.robotparser.RobotFileParser()
+        ok = True
+        try:
+            r = get(root + "/robots.txt")
+            if r.status_code == 200:
+                rp.parse(r.text.splitlines())
+            elif r.status_code in (401, 403) or r.status_code >= 500:
+                print(f"[notice] robots.txt 응답 {r.status_code} -> 건너뜀")
+                ok = False
+            else:  # 404 등: robots.txt 없음 = 제한 없음
+                rp.parse([])
+        except Exception as e:
+            print("[notice] robots.txt 확인 실패, 건너뜀:", e)
+            ok = False
+        _robots[root] = (ok, rp)
+    ok, rp = _robots[root]
+    if not ok:
+        return False
+    if not rp.can_fetch(UA, url):
+        print(f"[notice] robots.txt가 {url} 자동 수집을 허용하지 않아 건너뜀 -> 병원 홈페이지 관리자에게 문의 필요")
+        return False
+    return True
+
+
+# ---------- 소스 ----------
 def news():
     q = urllib.parse.quote(NEWS_QUERY)
     url = f"https://news.google.com/rss/search?q={q}+when:14d&hl=ko&gl=KR&ceid=KR:ko"
@@ -48,29 +119,49 @@ def news():
     return out
 
 
-def notice():
-    rp = urllib.robotparser.RobotFileParser(urllib.parse.urljoin(NOTICE_URL, "/robots.txt"))
-    try:
-        rp.read()
-        if not rp.can_fetch(UA, NOTICE_URL):
-            print("[notice] robots.txt가 자동 수집을 허용하지 않아 건너뜀 -> 병원 홈페이지 관리자에게 문의 필요")
-            return []
-    except Exception as e:  # robots.txt를 못 읽으면 보수적으로 건너뜀
-        print("[notice] robots.txt 확인 실패, 건너뜀:", e)
-        return []
-    r = requests.get(NOTICE_URL, headers=HEAD, timeout=20)
-    r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
+def parse_table(html, base, label):
+    """의료원 공지: 표(table tbody tr) 한 줄 = td.title 안의 링크 + td.date"""
     out = []
-    # 게시판 마크업을 아직 못 봤으므로 범용 파서. 결과가 이상하면 아래 선택자를 실제 구조에 맞게 수정.
-    for row in soup.select("table tbody tr, ul.board-list li, .board_list li"):
-        a = row.find("a", href=True)
-        if not a:
-            continue
-        m = re.search(r"(\d{4})[-.](\d{2})[-.](\d{2})", row.get_text(" "))
-        d = f"{m[1]}-{m[2]}-{m[3]}" if m else TODAY
-        out.append({"source": "notice", "title": trim(a.get_text()),
-                    "url": urllib.parse.urljoin(NOTICE_URL, a["href"]), "date": d})
+    for tr in BeautifulSoup(html, "html.parser").select("table tbody tr"):
+        a, d = tr.select_one("td.title a[href]"), tr.select_one("td.date")
+        if a and d:
+            out.append({"source": "notice", "title": trim(a.get_text()),
+                        "url": urllib.parse.urljoin(base, a["href"]),
+                        "date": d.get_text(strip=True), "press": label})
+    return out
+
+
+def parse_cards(html, base, label):
+    """Now,성남시의료원: 카드(.column-list li) 하나 = 링크 + p.title + p.date"""
+    out = []
+    for li in BeautifulSoup(html, "html.parser").select(".column-list li"):
+        a, t, d = li.select_one("a[href]"), li.select_one("p.title"), li.select_one("p.date")
+        if a and t and d:
+            out.append({"source": "notice", "title": trim(t.get_text()),
+                        "url": urllib.parse.urljoin(base, a["href"]),
+                        "date": d.get_text(strip=True), "press": label})
+    return out
+
+
+def notice():
+    out = []
+    for url, label, kind in NOTICE_PAGES:
+        try:
+            if not robots_allows(url):
+                continue
+            r = get(url)
+            r.raise_for_status()
+            items = (parse_table if kind == "table" else parse_cards)(r.text, url, label)
+            if not items:
+                print(f"[notice] {label}: 글을 하나도 못 읽음 -> 홈페이지 구조가 바뀌었을 수 있음")
+            for it in items:
+                if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", it["date"]):
+                    it["date"] = TODAY
+                it["first_seen"] = it["date"]  # 처음 모으는 예전 글이 전부 NEW 로 뜨지 않게 게시일 기준
+            print(f"[notice] {label}: {len(items)}건 읽음")
+            out += items
+        except Exception as e:  # 한 페이지가 실패해도 다른 페이지는 계속
+            print(f"[notice] {label} 실패: {e}")
     return out
 
 
@@ -109,7 +200,7 @@ def main():
         try:
             for it in fn():
                 if it["url"] and it["url"] not in items:
-                    it["first_seen"] = TODAY
+                    it.setdefault("first_seen", TODAY)
                     items[it["url"]] = it
                     added += 1
         except Exception as e:  # 한 소스가 실패해도 나머지는 계속
