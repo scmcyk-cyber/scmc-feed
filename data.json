@@ -1,6 +1,62 @@
 {
- "updated": "2026-11-18T23:37:28+00:00",
+ "updated": "2026-11-20T06:54:10+00:00",
  "items": [
+  {
+   "source": "notice",
+   "title": "2026년 성남시의료원 CCTV 설치공사 행정예고(공고)",
+   "url": "https://www.scmc.kr/information/scmcInfoView/?seq=4841",
+   "date": "2026-11-20",
+   "press": "의료원 공지",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "source": "notice",
+   "title": "나태주 시인과 함께하는 제4차 인문학 교실 성료",
+   "url": "https://www.scmc.kr/information/VariousView/?seq=7607",
+   "date": "2026-11-20",
+   "press": "Now,성남시의료원",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "source": "notice",
+   "title": "성남시의료원, 2026년 성남시 통합돌봄 포럼 및 워크숍 공동 개최",
+   "url": "https://www.scmc.kr/information/VariousView/?seq=7606",
+   "date": "2026-11-20",
+   "press": "Now,성남시의료원",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "source": "notice",
+   "title": "경영진이 직접! 안전문화 확산을 위한 환자안전 리더십 라운딩 실시",
+   "url": "https://www.scmc.kr/information/VariousView/?seq=7605",
+   "date": "2026-11-19",
+   "press": "Now,성남시의료원",
+   "first_seen": "2026-11-19"
+  },
+  {
+   "source": "notice",
+   "title": "성남시의료원, 10월 ‘이달의 친절직원’ 격려 및 시상",
+   "url": "https://www.scmc.kr/information/VariousView/?seq=7604",
+   "date": "2026-11-19",
+   "press": "Now,성남시의료원",
+   "first_seen": "2026-11-19"
+  },
+  {
+   "source": "news",
+   "title": "성남시의회 29일간 정례회…시의료원·재산세 한시 감면 ‘재격돌’",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1BVzhhN00tWDEzb19UOFN6VnUtUmZlbEVFZGhlWENWYTV5Zk4wY2I5VUdja2xWOTVBRDdvVEs3c0c5RGxGczV4YUVra2ZUN3FMRFE?oc=5",
+   "date": "2026-11-18",
+   "press": "경인일보",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "source": "notice",
+   "title": "성남시의료원, 2027년 수능 앞둔 임직원 자녀에게 따뜻한 응원 전달",
+   "url": "https://www.scmc.kr/information/VariousView/?seq=7603",
+   "date": "2026-11-18",
+   "press": "Now,성남시의료원",
+   "first_seen": "2026-11-18"
+  },
   {
    "source": "news",
    "title": "성남시의료원, 제5회 오티즘 어워즈 개최…발달장애인 가족 위한 특별한 축제",
@@ -24,6 +80,38 @@
    "date": "2026-11-17",
    "press": "K뉴스통신",
    "first_seen": "2026-11-18"
+  },
+  {
+   "source": "news",
+   "title": "성남시의료원, 발달장애인 가족과 함께 한 '오티즘 어워즈'",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBiVDllQ2pzOWRqRmhiNDVmRkJhNE5GUDJwcU1Na1U4SVJoeFpsRkdhdFRPcXpHRDJvaHp1cE1oSHZoS01OczF5TWFSNXhEUTVxY1pacW8xVjVoQ0VSTzdQNNIBeEFVX3lxTE1yNFZ5QUxxRUktVDU1Q3IwaUtDZHBycGlnN09CZGtfSHhadUVrV0dIdXVnY1FkVzM1ZlFKaGdlWTVRSmIyNWw1T2ljdjJtaHA1STFQTkYxcjFrQy1hY3FYTGp3Z3NocFUyVnNlMVZ0TEZscndaQWNwRQ?oc=5",
+   "date": "2026-11-16",
+   "press": "뉴시스",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "source": "news",
+   "title": "성남시의료원, 발달장애인 가족과 함께한 '2026 오티즘 어워즈' 개최",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE42SFloN0R3cEdTbGJGVGloeVZ4NjJKUkVjNHRaRnNTU09jRWs2ZGhrRFBfbVBXTWdsXzVTeU1uRFVRVUs2MkFMd1VNVm5LX3dFd04zMnJMODhYaTBnLXlVMFI5SS1YZEhNUjc0Zkpn?oc=5",
+   "date": "2026-11-16",
+   "press": "국제뉴스",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "source": "news",
+   "title": "성남시의료원 발달장애인 가족과 함께하는 소통·공감의 장 마련",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5fRWtyWkt0NXhXWVZ5MF9sNEstZ2JZYkdRb2dGMEtGM2hzZWNlb3I1UWpET0p2NV9sdm9UVVVyQk9EX1IxVVhsOXBtXzJHcloyeExVOU5JeDhZZ9IBWEFVX3lxTFA0MHdOZkMtZlM2M1pRbGxFTi10U2FkMDNMdk1qYWFEYXEtZ0tUREJ2Qm0zZHFDbjk5d2VOLWswWUxxZU9pMGRlSEtzRC1jX3U5RFF1MWNyTm8?oc=5",
+   "date": "2026-11-16",
+   "press": "아주경제",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "source": "news",
+   "title": "성남시의료원, 발달장애인 가족과 함께하는 `제5회 오티즘 어워즈` 개최",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9XWkR4bGRoY21JZ3UzZWhoVEQwWVBRZlBMeFI5TkUwcEpJczNHc0xDRkE5bUF2UFREeWFqdDJzMU03S1EwMjgzYm5NdVE1U19yUFBEV3l1RQ?oc=5",
+   "date": "2026-11-16",
+   "press": "분당신문",
+   "first_seen": "2026-11-20"
   },
   {
    "source": "news",
@@ -128,6 +216,22 @@
    "date": "2026-11-11",
    "press": "금융경제신문",
    "first_seen": "2026-11-16"
+  },
+  {
+   "source": "news",
+   "title": "현대해상, 병원 로비에 독서 공간 마련…성남시의료원 ′마음도서관′ 개관",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5FOW8xYUpOWm1aQk04VjFLeHJsTUhabl9JRlZSNnBOdzYtNzFyUkNxdUh1MU5PUkZySTdEZHF2UERCbVZsWnpEQ0V0VWtydENzZlhuclVkWdIBU0FVX3lxTE8yUEVCck5BWnpCYnZjcEdPOF9DMzdZQ2E1R1IwSzc2dmhIYUNRNkwzZ0NjRzA4UlRrSkRBQUhxbDk1ZF9XNHNmTDkzZEU3ZHVxbWhn?oc=5",
+   "date": "2026-11-10",
+   "press": "KPI뉴스",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "source": "news",
+   "title": "현대해상, 성남시의료원에 병원 내 도서관 조성...전국 34곳으로 확대",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Tek1sTm8tZHlRR0V1Yk1CNkNSclM4cEtOWW5qcnJLb0Q2OU9BRFplaFdOeW5NdmE4OHN3el8ySENaZDlaMVBFQnEwWV9KeFh4R1ZWM3h2M3QtN2pTWVdMTGtKTHh4RURuVGZN0gFvQVVfeXFMTnF1TGNlRFBQY1VROWUzSlRKY3hjeGlCTVB2Y29lcW5jcEdqbWpLa1NCQzd0eVZWMjhGdHRWQ05qY24xSDdTSjAyVjd3UHpSdTcwdkdLLWhwOFBqSV9aNW1UZUJPMkZQRVU5c1ZaRTNN?oc=5",
+   "date": "2026-11-10",
+   "press": "더퍼블릭",
+   "first_seen": "2026-11-20"
   },
   {
    "source": "news",
@@ -496,6 +600,78 @@
    "date": "2026-11-06",
    "press": "m.snvision.newsa.kr",
    "first_seen": "2026-11-16"
+  },
+  {
+   "source": "notice",
+   "title": "2027년도 성남시의료원 주차장 주민정기권 접수 안내",
+   "url": "https://www.scmc.kr/information/scmcInfoView/?seq=4821",
+   "date": "2026-10-28",
+   "press": "의료원 공지",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "source": "notice",
+   "title": "2026년 제3차 SNS이벤트 실시 안내(10/22~11/2)",
+   "url": "https://www.scmc.kr/information/scmcInfoView/?seq=4801",
+   "date": "2026-10-22",
+   "press": "의료원 공지",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "source": "notice",
+   "title": "2026년 호스피스의 날 캠페인 시행 안내(10/20)",
+   "url": "https://www.scmc.kr/information/scmcInfoView/?seq=4781",
+   "date": "2026-10-14",
+   "press": "의료원 공지",
+   "first_seen": "2026-10-14"
+  },
+  {
+   "source": "notice",
+   "title": "10월 휴진안내",
+   "url": "https://www.scmc.kr/information/scmcInfoView/?seq=4761",
+   "date": "2026-09-29",
+   "press": "의료원 공지",
+   "first_seen": "2026-09-29"
+  },
+  {
+   "source": "notice",
+   "title": "개인정보 보호주간(2026.9.28.~10.02.) 안내",
+   "url": "https://www.scmc.kr/information/scmcInfoView/?seq=4741",
+   "date": "2026-09-14",
+   "press": "의료원 공지",
+   "first_seen": "2026-09-14"
+  },
+  {
+   "source": "notice",
+   "title": "9월(추석연휴) 휴진안내",
+   "url": "https://www.scmc.kr/information/scmcInfoView/?seq=4721",
+   "date": "2026-09-11",
+   "press": "의료원 공지",
+   "first_seen": "2026-09-11"
+  },
+  {
+   "source": "notice",
+   "title": "2026년「생명나눔 주간, 생명나눔 희망의씨앗 캠페인」 카드뉴스",
+   "url": "https://www.scmc.kr/information/scmcInfoView/?seq=4701",
+   "date": "2026-09-09",
+   "press": "의료원 공지",
+   "first_seen": "2026-09-09"
+  },
+  {
+   "source": "notice",
+   "title": "분당서울대병원 교수 진료 개시 안내(안과, 성형외과)",
+   "url": "https://www.scmc.kr/information/scmcInfoView/?seq=4682",
+   "date": "2026-08-18",
+   "press": "의료원 공지",
+   "first_seen": "2026-08-18"
+  },
+  {
+   "source": "notice",
+   "title": "성남시의료원 장례식장 임시 휴업 안내",
+   "url": "https://www.scmc.kr/information/scmcInfoView/?seq=4681",
+   "date": "2026-08-18",
+   "press": "의료원 공지",
+   "first_seen": "2026-08-18"
   }
  ]
 }
