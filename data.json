@@ -1,6 +1,430 @@
 {
- "updated": "2026-11-20T06:54:10+00:00",
+ "updated": "2026-11-25T23:37:28+00:00",
  "items": [
+  {
+   "source": "news",
+   "title": "성남·부산·목포시의료원 의약품 입찰 '최후의 승자는?'",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4wQ2pJdkxkS3VDZmVhbW9SLWtib2I1c0xDd0JEeEJteE1lMEpIMEZSVklrSWd3dnN0TncwdjlfTjZJTHVwUTN4bFh6T203NG9OWUpMSVJTQ1BSOUhFSXcxLUdWeGtGZmVZMnc?oc=5",
+   "date": "2026-11-25",
+   "press": "의학신문",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "notice",
+   "title": "성남시의료원, 2026년 지역책임의료기관 원외대표협의체 2차 회의 개최",
+   "url": "https://www.scmc.kr/information/VariousView/?seq=7624",
+   "date": "2026-11-24",
+   "press": "Now,성남시의료원",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "source": "news",
+   "title": "성남시의료원 위탁 지연…市 “복지부 승인” 촉구",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9WcHYwY1VxejB3ZERpSl91clUyZW1GS29NQWNnRDZ5OEFfT2dxclJyVy1kZG9HM3Q1S0F0MXpnUUMybTItMFlvM3pCd1ZCelUtVzEwOWdEcUt2V1Q2bnJhdzQ3cw?oc=5",
+   "date": "2026-11-23",
+   "press": "데일리메디",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시, 5년간 ‘2852억 손실’ 성남시의료원 위탁운영 승인 촉구",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5pT3V1a2RXQ1JUVUR3OEMzenBmVHhWRXZUdlJTSE53c3ZEMXFBdmFoWjVoY2trVVU1dC1zMVIzTkE4TVFVekVzY1pUUGR5bFFNeWhFak9JZjZ0RjQ?oc=5",
+   "date": "2026-11-23",
+   "press": "경기일보",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "누적 적자 2852억 성남시의료원…대학병원 위탁 3년째 ‘제자리’",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5MYlBjR2U3VXpVbnZhOVotRktJYXhrQWRQQTNaNUt4dXBLM3JtcjZ3OTZ1cFNmRXZWUXNMM3RfWGpJWnhmdjB3TnhHeV8xWW1GbEgwTmZXQl_SAVRBVV95cUxQX01Hd3lub2pBRFM2djd3WEEySjQwN1FUTl9hQ0RZcV9WUktQTUd5cUFBSDg1NmFfeUpONlQ3NlRQVmpoOUdaMWJyOXBqMzZyUnVEVk4?oc=5",
+   "date": "2026-11-23",
+   "press": "세계일보",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시, 국내 첫 ‘주민발의 공공병원’ 성남의료원 위탁운영 승인 요구",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1VTnBjSHlNMXlTRC13TGQwOTJmVHB4aTN1Z2lucTk4THE5RHRzc25RUlBkVzZJVm1NSTFLeWhtWWJVeVpVQVdfM0R5NE1Nc3BkZEV3Y1ZyQmI4TXZWZC1jY0h4RQ?oc=5",
+   "date": "2026-11-23",
+   "press": "한겨레",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남지역 공공의료보건 확대 필요성 고조...성남시의료원 대학병원 위탁운영 승인 시급",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1PQW05Z2Y1SVRsRHY1X2tTdUJLZ0RqOFlYb0V6VnZXWkpaQXYyYWF1VDJfcWNjNk8xZUJLemp6QUpFUTU0b3N5RzZqQmRBVlVnZ2pLT3BfRG9iTjROOFRSVU5n?oc=5",
+   "date": "2026-11-23",
+   "press": "경기신문",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시, 의료원 위탁승인 재촉구·상대원2구역 중재…복지·청년도 강화",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94YlMtOTFxc3EwMUZ6RUxLSmpPNkJmekh4SkUxbjNfeEJIbTM4S3VqY0F5V05xdXZsWlRtcGVqME52cnFJOWxDSVNQb01pRnRvVlgzNEFkRWNtbmhSRk1BMnNaSWRidzh6SV80YnpwSVY?oc=5",
+   "date": "2026-11-23",
+   "press": "인천일보",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시의료원 누적 손실 2852억원…대학병원 위탁 승인 3년째 답보",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1oNjJDTFFrNVlJeVM2eFYyOHZDQUxENHFOOVg4VXRuRXcyeEV4STlTRmphZ1Btak1JR0Ewd3ZNMXQ1TldTNnFocjBJYm45ZkYwZHhyX2E1R1dzZw?oc=5",
+   "date": "2026-11-23",
+   "press": "한국경제",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "“성남시의료원 대학병원 위탁 승인 3년째 제자리”",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE83TnJicDN1Z3VsMG1XaFRwRE5YT01OTGMyeTlJR2hTcVp1TUk2WnZqS1Zoc0tsRk1XeGdubVJJSmU0Q1dCRkdfaDljckU0bDFCUXQ1Y21FZ0tVNkpoQVZjb0dWY0NKTDFSZUE?oc=5",
+   "date": "2026-11-23",
+   "press": "서울Pn",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시, 의료원 대학병원 위탁운영 승인 재촉구…복지부에 조속한 결정 요구",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBpS2JLVUhaTG1zS3JMU3l3MHdJOUNFa2RiQm5ySnBkTjlhV1ZxX3k0TzFGeUVpNm01ci1LYzUzYi1YX0Z5LWJWaFpDMFRmdm1RV01aelBNUlc2WkhnRGc4dy0yWFbSAWhBVV95cUxOdWF4cWpBaFM4cGFIeEZnY0kwRk5mbEVYOWl3eWdvclBVWjdweFRkb2NoY2JqckpNRjFndElvYjIxNnRUWHBBSGMyZlNKUEJXX2gzT3R5Z3NVXzlmajk3MFpwbzNxRHJjTw?oc=5",
+   "date": "2026-11-23",
+   "press": "경인방송 뉴스",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시, 성남시의료원 대학병원 위탁 승인 재촉구… \"복지부, 공식 입장 밝혀야\"",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1CbHN1V21yQjBEZmdGajBnOEhnSk9QNmUtY2lZeTFOcDRqZkdPbzlrX1JyRC0wSklHSlpxTzFnMmw5SUwyV2JmcXloaFUyXzVhRmd0eW15T204cm9pLVI3NTNobXBib0JENFMtUUpB?oc=5",
+   "date": "2026-11-23",
+   "press": "국제뉴스",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시, 성남시의료원 대학병원 위탁승인 촉구 및 상대원2구역 재개발 갈등 적극 중재",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBrdy1ZVGQtWTJnNnA1V29JSHRSM3dzclFSeXJwOFpxTXFZN0hCUXN1bHlDWjE0aE9KaHdZY2U0ZGNFZ3pRclhHX2FIWGNGc0F4MHZuX3NDSzZ2WEZac21IVDU3M21ScldnbUtmSDVjWW9hSmM?oc=5",
+   "date": "2026-11-23",
+   "press": "대한경제",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시의료원 누적 적자 2852억원…성남시, 대학병원 위탁 승인 촉구",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA3d0l2emVQcWRScl8tQWVvZXlYRzByZFF6S284NkJ1N1NtYjVTOGl3VkdjY2pJMEY2Z1dvUk10eE5xUEpya1VwdDN4R0JFR3Qy?oc=5",
+   "date": "2026-11-23",
+   "press": "문화일보",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "\"5년간 누적 적자만 2852억\"... 성남시, 성남시의료원 대학병원 위탁 재촉구",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5HWU1sRnRYQ1B0NzNTbHc4WXlkb1EyRnVISGItYWMwWW1naUIwX0sxN1FpaHJBOGhMbWZYTGFaRS13bW5uWFFjSC0yMjFEVVR4WUpjSTVmNVM2QQ?oc=5",
+   "date": "2026-11-23",
+   "press": "파이낸셜뉴스",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "\"3년째 읽씹\" 성남시, 복지부에 시 의료원 대학병원 위탁 승인 재촉 - 머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1SUllYQ0hWdkwzdFNsREFzRGdja0tiVXNha0hTR3dpSjg5Qng3X2NLU19saU53eEo3cXA3YkluMjhzVEFJVHF4bk9OX2hBNzB6RGlMdTNzbktDV3JPRTBOUDJfNWRjckVhZnhxZDlmVdIBb0FVX3lxTE1SUllYQ0hWdkwzdFNsREFzRGdja0tiVXNha0hTR3dpSjg5Qng3X2NLU19saU53eEo3cXA3YkluMjhzVEFJVHF4bk9OX2hBNzB6RGlMdTNzbktDV3JPRTBOUDJfNWRjckVhZnhxZDlmVQ?oc=5",
+   "date": "2026-11-23",
+   "press": "머니투데이",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "산으로 간 성남시의료원…5년간 2852억 의료손실",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5WVVBSMVpOREtnM0JPNzNGQ1drYVFpZExOMGkyT241X2t3X1QyNFd5aEFWYXUyeE1COG9kQl9ZY1NYdjhyMVljeDluMTIyMlpPZWdVWGRB?oc=5",
+   "date": "2026-11-23",
+   "press": "헤럴드경제",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시의료원 누적 적자 2852억원…“대학병원 위탁 반드시 필요”",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA5RW5aTkhvNVdMRkIzcS10YjZnaGpXYXF6OFhpNzRvSFdjQmQ4VWxVMHpod044TnZ4U1Y2ZTFxcnBhODEtcnp6VTZMMVFEOEVKcXd2b1ZjSGd4bWtfSFZxVmZYeGJSdmJlTlFZY1pB?oc=5",
+   "date": "2026-11-23",
+   "press": "아시아투데이",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "'적자 중증' 성남의료원...성남시, 대학병원 위탁 승인 재촉구",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQnRmWFR0TDBhTUduV2IzdWt2M2hpY1lTcHhocTk4dURfOVcyLThnVlRlWncyRlUzZHlfbmRmQXQtRkNQX1RSSHNFb1l3ckNjVE9TVV9vZ3U0b0JXbE5LZkZmUVZDdFkyQW41QlZfOE1xb19Vc0xCaXNJTlU0ZE5aQmx2X2pxMmxFd2RB?oc=5",
+   "date": "2026-11-23",
+   "press": "글로벌이코노믹",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "의사도, 환자도 발길 끊긴 성남시의료원..5년간 2852억 적자",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcmhLVkpLeUdPOTJYb1M0LWVDNm82bWd1c3hzTUNhNWlINWFYUjhzanhzVk9ISUF0dXFPM0oxT3lCT0J2ZTJZRjROcWdqNTlTRWtfVG03VEJyWVZ5Vi1QaC1qOGZ5Q24xUHlidVg1cE5mSVJvLWpIcTFTTFh1d09Tbg?oc=5",
+   "date": "2026-11-23",
+   "press": "이데일리",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "신상진 성남시장, 성남시의료원 정상화 더는 못 미뤄…복지부에 신속한 결정 촉구",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SUUdUWEtFV2NWeWdmeFRMQzZaYnJsQmsyLTRISHlORFZGTHJDb3JPWkNsd0ctOV9QVm9TcG5CQTVZVUlPX013NmFhVDN0NGJoTGVYZGN4bkhxRU1rcTZEZjQ1QzNDZVRJV3fSAWxBVV95cUxOODhlNkt0c0NIYlU1SHExaXoydUJPNDI1eXZMWDBBdlp1OE9meVlKd2Jtb1gtRDZQd0NpR3pRSmU4YXhYdGk4MlN0NmhlNFlScmlKUjlEdWRqTVNrYnFCcUZSREk0Rnpoci1fYVc?oc=5",
+   "date": "2026-11-23",
+   "press": "필드뉴스",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시의료원 2852억원 적자에도 위탁 승인 답보…성남시, 복지부에 결정 촉구",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rQXd4YXVRRmVJOFNWOWpCbWhWbmJFb0RVYVFYLVpmNThOTlpxbDhraDJBWmw1ME04WFlIeFAxbl8xMGxLM0o2ZzhSVUU5NXpHbGpxcHZrSmtyRjhrUEJhSC1rZi03SUJjWW95MGpWWWzSAXRBVV95cUxOUGNHMEswZFNYOEsyQVh3X2F5c3dwMmRYbXlBMXFBMXJqdU84YmtCbzRVSEphd2FKY1RqZjgzWENRaEFFOUl6d192ZUs1RWYwZ0FvZ0dsSVJpSlhzLTVSSlhlQ01oUjBtRFpDWW9QRGpScmt6Rg?oc=5",
+   "date": "2026-11-23",
+   "press": "주간한국",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시, 보건복지부에 성남시의료원 대학병원 위탁운영 신속 승인 재촉구",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrWUZ0RUpUekljVGlySGQ5RGh2dXc3M3VvQzI3QmttQmJ5THpodXd6S283WlpoT2pZZXhFVUlOSl8xN3dSdTlVdzNWRjJ1RlpYZTZjSDROcWtqTk5LbGNsME5idGRLX3p2V1BF0gFvQVVfeXFMTWl1NndkT0g5bW54eHJXTW5aS2hCUmhaZXZqaVpWYTVDdS1JQno3ZkhvX0FjMHc1N1hJZVIyV0JEa2tpMU0zQVRqeUlDcGJZTU50Si0wcFVXZFNMTXFSRl9KVmpxY2NWd1VTaTdReHBB?oc=5",
+   "date": "2026-11-23",
+   "press": "한스경제",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시, 성남시의료원 대학병원 위탁운영 신속 승인 촉구",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lbGM1NTZ0YzZ0YjI1LVNidzZUZ0QzWk5pc0o4cDBJRE5BOUtkXzR4NzhSWnNWbXB4Rmd0RmZxUUdtOHVhd2hHQlVfUnQxcHdZeXEwOWlJQUZNUXVvNmYwdmxXd1FVV1Z1bHF6OVhB?oc=5",
+   "date": "2026-11-23",
+   "press": "전국매일신문",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시, 의료원 '대학병원 위탁운영' 승인 촉구…복지부에 신속 결정 요구 - 보도자료 | 기사",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqN2pQN3J4aEpDWEhZc1lTY3lUbGJnOFpGb1FBeUp2cnU1SEt5Z0VPSHdNWkdUQVAwVVJkLUJudjI4WGltRFhHendhRHpCb0pfdVpoMWstLTd4NWVnMEIw?oc=5",
+   "date": "2026-11-23",
+   "press": "더팩트",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시, 보건복지부에 성남시의료원 위탁운영 승인 촉구",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1OTEp2UjYtYmNzRDZ3QXVOSkItWEJBaUx0N3VJZGtsdzRhd2lSZmxUeWRKM29pbElTNDRiQnkyV1NhZTVnT3o0WTFRcHFzMVVKaDdIR0w4RElNaXg1NldQNXF3?oc=5",
+   "date": "2026-11-23",
+   "press": "경인미래신문",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시, 복지부에 '성남의료원 대학병원 위탁운영 승인' 재촉구",
+   "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNSVYxTllVcUNZeVdFekJXR2d6SjR3Sk15NWFMaUgtc1VIdnNzMTVvYUJSRnFHN3NOU1JhM3UyYWdnX1htSFIyOTNsaUc2UUNTNlJwaTdmWkdRd1RzLTFzNnBnRE1ocWktTnlNTGQ2WV9DbmliZGMtUkhia0tMNnFQVFVsSW5QRXkxR004SExiNWRaQmFkZHh0SmM4UG10Unp4T0M1cWQ1OTFfSDF4VldDMWVONEtxRkRuTGdsX2l0RXRXLVhfcWlSNzNGb1NzQ28tS0V2X1lYSHNGZGhFYXBZVVEwT2lBZ1VlVWY1M0J6Sm9nc1RjSGl4TWhKbHVSN0ZWeWd5ZlllWTFrR0xvME15dExiUDJPX3hzWFVRbHM4WlF6Q0E?oc=5",
+   "date": "2026-11-23",
+   "press": "데일리안",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시 \"의료원 위탁운영 승인 3년째 무응답\"…복지부 방문해 결정 촉구",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBpb0EyRmJyZHJIeUtDTjZwYzFpWTBIcnhwMmJENlRVQzFkVHdjTlBsY3dSR0RqNGM4Yko4QldNU213OFNFTHpLUDA0ZUNYNXh1UTFHVHF4Q20xakF6dVNsd1hzRG1TQTRRSzN2d3J3eGRSMjA?oc=5",
+   "date": "2026-11-23",
+   "press": "동방일보",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "신상진 시장 성남시의료원 대학병원 위탁 승인 재촉구…더 이상 지연 안 돼",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBETlNVR2JtRGNQdG9RbzZpZThKb0FqdjU0bmh1YkMyaFM1UzIySWF5LXBqanIzMHVvc0VOSEdHVGphOW9xVGx5a210aFNtQnJpZkZIcm82ZEdQQdIBWEFVX3lxTE04WVNSSUVDQzMtMUo0OU92em94YWdXdXNzUUJMb05wRG1SbFMwSjVoRVBKMXFNWEtFc0VNOFRmNGFsTUl2LW9nOFlibXZ5WDQ5ZmV5ak5TR1g?oc=5",
+   "date": "2026-11-23",
+   "press": "아주경제",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시의료원 지난해 의료손실 435억원…성남시, 대학병원 위탁운영 승인 촉구",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZNXNsVVh6N0JSQURTa1Q1ZTRZVWx5cmFQZ2M4SXNHODBvTHdraS1DTWNhelBpeGZJVE1kRm9FdmFtdks1bFhsNDUycUREVktzTUpvNWp5VU9fd00ydVRMQy1NdXV0bmNWTFE?oc=5",
+   "date": "2026-11-23",
+   "press": "뉴스티앤티",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시의료원 누적 손실 2852억원…대학병원 위탁 결정은 언제",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tY2RVZzB3TmFLeUNfNGtFNVpKaGZpOVdGUi1YaEp5WGJFS19ieVZhdDEtSmxCejJXWWdNR2ZsZWx6YUUxU0pmd3RXZGtwQmt5N2hYcHdET0VVV1dmdUQ1c3Z4VHVERjZqRF9lek5KLWNOQQ?oc=5",
+   "date": "2026-11-23",
+   "press": "디스커버리뉴스(DISCOVERYNEWS)",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시 “시의료원 위탁운영 더는 못 미뤄”…승인 재촉구",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB1ZEtYcGZuaTdUYW96ZFlhTVNPaGFmLUJ5cUM0V0VxQmNPSS13QU50M2hNRmdNVTRDTWI0RFl4TUFYa2VLQ0p4SDFnWkk3X3pJMmpHb2JUWkh3aUxPTlhVX2F6TzZNN3dX?oc=5",
+   "date": "2026-11-23",
+   "press": "일간경기",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "“3년째 답변도 없다”...성남시의료원 대학병원 위탁운영 승인 왜 늦어지나",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5mRVFPZk92QXdral9BN2ZiM0F0VUd3UWxtV2FkeXFmMzVmLVFOa3drVGJDckhheTZvRm9lYjJxeWtvMzhBeHpFYzIxY09FVkdHZjI4aVZQdmxsMnRBU21jS0daVmZ2Mm5EeFVuM2tNdkXSAXRBVV95cUxPXzc5bnZBTmJKakRqTmZNeElUUGVQamp4czF1YWdVXzQ5X2IzMjFfVWdTdVpFZjN6dHZtd1plekVwQTd0WjlJUkdwbFlqMDBROElCVVNseVlJZkVXeUpsM0pEYTNmbWpsc19hQ2M0UnlrQ3pGdg?oc=5",
+   "date": "2026-11-23",
+   "press": "포인트데일리",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시, 의료원 위탁승인 촉구",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qVEEzWEJQUEhYSFNPSnpuZ2luQS1FeTJ1TVJTa3BLRG9SRnp2WDljY2NDQm14TWJNLXVmTzVJQWl4VFNFdXFiM0R4NlUwaFd6WVUybTkydmw3VFdhTWQtS3V2NThZOXk5aXc?oc=5",
+   "date": "2026-11-23",
+   "press": "국민투데이",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "“누적 의료손실 2852억”…성남시, 성남시의료원 대학병원 위탁운영 승인 재촉구",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1uSDluYzc0UUJiR2wzRmZHeE1MaXVmby1Tb29wQ005Mkgwd3FtVWZoQjJZbjlqSXV1dnk5ZldMT3JhWTl3RTBLMzB3NA?oc=5",
+   "date": "2026-11-23",
+   "press": "아이뉴스24",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시, 의료원 대학병원 위탁운영 승인 재촉구",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE4tdFpPaHV4OTJsdE00QTA4SW9GY0huRkRkNDNnZ3pxRUVDWTF4Y3JuWUVPWll0bjZEWUhzT3JzMEtxSGt2ZkwySG5ISXg?oc=5",
+   "date": "2026-11-23",
+   "press": "모닝투데이",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시, 시의료원 대학병원 위탁 운영 승인 재촉구",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE94TUpGWFA1cXdPLXRJZU8xenJGUmE5ZzloWFVJTEtpWDVFeTlQNGNWZjFKRHduZ3poaS1CUzNEbG55Q2otQTZwUF9KQ3d6ZTM4SzNXd1VlWWdLbjIwSjZ5MzNB?oc=5",
+   "date": "2026-11-23",
+   "press": "CWN",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시, 시의료원 대학병원 위탁 촉구·상대원2구역 재개발 중재 총력",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5sdk1mdE9Yd3Rid3llMGhqLXpwWURfZmhvQlo0TDI4eHV0SlBiMWNDWXVOdmxOa005ZzFESl9jWTJSNzlIZ0Ntdk5xa01JWmxDWHVQSjBxRHp6UkhlalpQLWtPQjdTSTlRWHc?oc=5",
+   "date": "2026-11-23",
+   "press": "컨슈머타임스",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시, 성남시의료원 대학병원 위탁운영 신속 승인 보건복지부에 재촉구",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE53RElod0NXaG1UYlg2OXJ2ejBoZkxONGNNclgwUUNwMjdaeHAxV3YxWmVzQVVXd1VRQW1hMERIMzgxcXpBLW05d2RFcw?oc=5",
+   "date": "2026-11-23",
+   "press": "분당신문",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시 \"성남시의료원 대학병원 위탁운영 속히 승인해야\"",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9jTjNxLVNKVXkwejJtaWhxR0NyWlZRMjAtYXpyWU1hYW1EQS1nQUJ3VmF6YnNwdW1wUGNhU1lrNUhGeEcyV3h1TS1nN2IzWnRCTUxDNHI3QXlQVENOWHc?oc=5",
+   "date": "2026-11-23",
+   "press": "동행미디어 시대",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "notice",
+   "title": "시민과 함께하는 헌혈캠페인 안내(12/10(목))",
+   "url": "https://www.scmc.kr/information/scmcInfoView/?seq=4861",
+   "date": "2026-11-23",
+   "press": "의료원 공지",
+   "first_seen": "2026-11-23"
+  },
+  {
+   "source": "notice",
+   "title": "성남시의료원, 경기도 요양병원 중심 의료관련감염 예방 협력체계 구축2차 간담회 개최",
+   "url": "https://www.scmc.kr/information/VariousView/?seq=7623",
+   "date": "2026-11-23",
+   "press": "Now,성남시의료원",
+   "first_seen": "2026-11-23"
+  },
+  {
+   "source": "notice",
+   "title": "성남시의료원, 제5회 일반인을 위한 호스피스·완화의료 교육 성료",
+   "url": "https://www.scmc.kr/information/VariousView/?seq=7622",
+   "date": "2026-11-23",
+   "press": "Now,성남시의료원",
+   "first_seen": "2026-11-23"
+  },
+  {
+   "source": "notice",
+   "title": "성남시의료원, ‘굿윌데이’ 맞아 굿윌스토어에 임직원 기증품 전달",
+   "url": "https://www.scmc.kr/information/VariousView/?seq=7621",
+   "date": "2026-11-23",
+   "press": "Now,성남시의료원",
+   "first_seen": "2026-11-23"
+  },
+  {
+   "source": "news",
+   "title": "성남시, 보건복지부에 성남시의료원 대학병원 위탁운영 승인 재요청",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YZUhvTnROYXpyYmtEbFdLaGRkSC12dW5WS1hxMGRuZlNtd0huVFJHZ0JLVnRKcjZYRkM2b0JBNzl2S0FTeDBDM0EyWWhPOG5zX3NVNFVEal9tQTdLSXFYeXZCcWs?oc=5",
+   "date": "2026-11-22",
+   "press": "매일일보",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "'성남시의료원 위탁 승인' 3년째 제자리…복지부에 결단 요구",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wWEgzSjMwRnBfbkt2ZHN0a19JZWwwbGEtM1FQbERVcEZjTXBCU3FhRVpFTlJxZWhqSTFmYU9MVDZlaUdhWkU2WlRwLURDMzJpZGNTc2N3?oc=5",
+   "date": "2026-11-22",
+   "press": "뉴스1",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시, 의료원 대학병원 위탁 승인 재촉구",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5rNTNkTjZsN2k2OWlwREtpRks1QnNVdml6aXRlTjVqWENhQmlMYmFJR2d5NHdzckFYY1RrZmIzTXZGbFh2dE5JLUN3RHZaZmhDUnfSAVNBVV95cUxNVng0a04xSS1qN2k5MHlTdC0tVFB6d2tyWHFoX1dpdzFFcV95OVNuZXZ0VGhWZWhkRWh2TnVYc2FNWW5xUUl0dERhd0pnSVV1eXhzTQ?oc=5",
+   "date": "2026-11-22",
+   "press": "서울경제",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시의료원 5년간 누적 의료손실 2852억원, \"해법 미룰 일 아니다\"",
+   "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFAxWUVNVXVfTW01MFFkM25UdG5YSHVfOVZuQ0owaTBJNjQzM29icl9WQUlobmhhLWpBZGN5eUJKZnBPeWM?oc=5",
+   "date": "2026-11-22",
+   "press": "성남일보",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "신상진 성남시장, 복지부에 성남시의료원 대학병원 위탁 승인 재촉구",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBaQldQUFc1ekFTQnpTbWVmSXE5Wi1tcktqUk5JanNUUFFaYlZpSUplNXlTOTB6Z3ZkOWhrYlI0ODhjSHdpa0dSV3d3ZGkzeVZvenhjeXBMQUNwMDJqX1pXTS1HV09kVWd2SVdRNGRjUnFWWXREVjRzUGp2MmM?oc=5",
+   "date": "2026-11-22",
+   "press": "비욘드포스트",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시의료원 정상화 해법은 대학병원 위탁…복지부 결단 촉구",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5uYXdGU0pxU2o2RjVMd1JQaDQ1eS1vMWJpcS1jalFuZDY2MUItQTlyUWtuTGJMbnRkRm83QUhRZjhxeFBfVFV4cGJ1OGZEd1JNQUhOZ2Y1VkFTNzVoNkM0bE9aeGw5SzR3WHJtUU1PZmRQdw?oc=5",
+   "date": "2026-11-22",
+   "press": "스포츠동아",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시의료원 누적 손실 2852억…대학병원 위탁 승인 3년째 표류",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1mUmhMOFZrMDhEc1ZKWXVMWjBzZGZReUV2ZVpQVDZwb1VPY2pDZHI3Y1VVRVdtSjFlLU82VnNUZl9SeTZkNkhkQ0tsVlRocjVKSW1FWjhFNmFPMFZtZmg0?oc=5",
+   "date": "2026-11-22",
+   "press": "데일리엔뉴스",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시, 성남시의료원 대학병원 위탁운영 승인 재촉구",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdWMwa05fTUVSXzNIV2lsWm42YkNNOElIM3BTRUh0bWdRUG5JV0trNXRzeTBXek9EOWcwR0plOTdyUHZxZnhrS3V0Yk5nb2EwNmxRM0x2NlI3VW55Wi03cWI2T0tHRjRwTElwekg1WjFmVk03WFRZaUNaaFZEOWtFcl9B?oc=5",
+   "date": "2026-11-22",
+   "press": "아시아경제",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "source": "news",
+   "title": "성남시의료원 ‘누적 손실 2852억’…대학병원 위탁 승인 3년째 표류",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE16Z0VrZXhPb2cyX3E2NG55MlZxR2EtQkhRcW14Y3padTZodjJZWU9UaXhJNU1hTnpzbmxJNWJYRDh6aVI5MlhhT3NuN0ZtUEVNdTlLTDZTNGdNVjlBUEdmeWxXV0ZYR2lxU0JZYg?oc=5",
+   "date": "2026-11-22",
+   "press": "공뉴스",
+   "first_seen": "2026-11-25"
+  },
   {
    "source": "notice",
    "title": "2026년 성남시의료원 CCTV 설치공사 행정예고(공고)",
@@ -24,6 +448,14 @@
    "date": "2026-11-20",
    "press": "Now,성남시의료원",
    "first_seen": "2026-11-20"
+  },
+  {
+   "source": "news",
+   "title": "성남시의료원, ‘2026년 제5회 오티즘 어워즈’ 개최",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0cGhXRFlIQ3FOZnhsTDlQQkJwd1o1UXdJMnlWdy1TM1FHbUhqcVVBX1dDZi1VbTlvaUVjMFVMNHVic3ZSZGFPOTRObEhVcERKOFExdjZkVnZCQUIzNmtxZWt6Y0g3LTZjUFBDdNIBcEFVX3lxTE83Vmk4eVZzY29QLTdwelQwdWxXSmhGUG9Xa0VMUjhKTFZaLW4zX2VUN2hHbGtNWGpMTmFnaU9wRzU5SU84U3loazdZMzNOUHpyRGdkNEs4ZWk3cy11RjBjMVNUYlc5amJreEtsYnI1WEo?oc=5",
+   "date": "2026-11-19",
+   "press": "성남신문",
+   "first_seen": "2026-11-25"
   },
   {
    "source": "notice",
